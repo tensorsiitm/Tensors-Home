@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tensors</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe06f24a1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="assets/imgs/tensors_logo1.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Verticals
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#vertical">TenMENT</a>
+                            <a class="dropdown-item" href="#vertical">Tensors SCI</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content demo3" id="home">
+        <canvas class="scene scene--full" id="scene"></canvas>
+        <div class="content__inner">
+            <h2 class="content__title">TENSORS</h2>
+            <p class="content__subtitle">Sailing through New Dimensions</p>
+        </div>
+    </div>
+
+    <div class="about-section" id="about">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#A9E7DA" fill-opacity="1"
+                d="M0,64L26.7,80C53.3,96,107,128,160,138.7C213.3,149,267,139,320,117.3C373.3,96,427,64,480,85.3C533.3,107,587,181,640,192C693.3,203,747,149,800,133.3C853.3,117,907,139,960,122.7C1013.3,107,1067,53,1120,69.3C1173.3,85,1227,171,1280,202.7C1333.3,235,1387,213,1413,202.7L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+            </path>
+        </svg>
+        <!-- <div class="main">
+            <div class="main__text-wrapper">
+            </div>
+        </div> -->
+        <div class="about-section-info-wrapper">
+            <div class="container">
+                <div class="about-section-heading">
+                    <h1>About Us</h1>
+                </div>
+                <div class="about-section-content">
+                    <p>We are a team of multidisciplinary and highly motivated students with a common dream of
+                        encouraging
+                        innovation for nation building. To create a platform for the brightest minds of the country to
+                        contribute towards Nation-building.</p>
+                    <p>Tensors is a social initiative aimed to tackle the problems existing in our society today. Our
+                        projects focus on the root causes and provides innovative solutions. We wish to be the change.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+        <svg id="about-svg-bottom" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#f8f8f8" fill-opacity="1"
+                d="M0,64L26.7,80C53.3,96,107,128,160,138.7C213.3,149,267,139,320,117.3C373.3,96,427,64,480,85.3C533.3,107,587,181,640,192C693.3,203,747,149,800,133.3C853.3,117,907,139,960,122.7C1013.3,107,1067,53,1120,69.3C1173.3,85,1227,171,1280,202.7C1333.3,235,1387,213,1413,202.7L1440,192L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z">
+            </path>
+        </svg>
+    </div>
+
+    <div class="vertical-section" id="vertical">
+        <div class="container-fluid">
+            <div class="vertical-section-heading">
+                <h1>Verticals Under Us</h1>
+            </div>
+            <div class="slantedDivA">
+                <p style="margin-right: 80vw;">vsjhdbshsdkskhd</p>
+            </div>
+            <div class="slantedDivB">
+                <p style="margin-left: 80vw;margin-top: 15vh;">vsjhdbshsdkskhd</p>
+            </div>
+      
+        </div>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <div class="container">
+            <div class="contact-form">
+                <div class="form-wrapper">
+                    <h2>Contact Us</h2>
+                    <div class="text_underline"></div>
+                    <!-- <div class="alert">Contact Successfull</div> -->
+                    <form class="form">
+                        <label for="">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Write your name here" required></input>
+                        <label for="">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Let us know how to contact you"
+                            required></input>
+                        <label for="">Message</label>
+                        <input id="message" name="message" placeholder="What would you like to tell us"></input>
+                        <button type="submit" class="button button-2">Send</button>
+                    </form>
+                </div>
+                <div class="gif-wrapper">
+                    <img class="contact-gif" src="assets/imgs/contactus.svg" alt="">
+                    <p class="phone_num"><i class="fas fa-phone-alt"></i> +91 8157925677 | +91 7034073143</p>
+                    <p class="email_id"><i class="fas fa-envelope"></i>tensorsofficial@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r120/three.min.js"
+        integrity="sha512-kgjZw3xjgSUDy9lTU085y+UCVPz3lhxAtdOVkcO4O2dKl2VSBcNsQ9uMg/sXIM4SoOmCiYfyFO/n1/3GSXZtSg=="
+        crossorigin="anonymous"></script>
+    <script src="js/perlin.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/animation.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
